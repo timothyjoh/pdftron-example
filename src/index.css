@@ -8,7 +8,10 @@ html, body, #root {
 
 .webviewer {
   flex: 1;
-  margin: 8px;
-  -webkit-box-shadow: 1px 1px 10px #999;
-          box-shadow: 1px 1px 10px #999;
+  width: 70vw;
+  border-right: 1px solid #E5E5E5;
+}
+
+iframe {
+  border: none;
 }
